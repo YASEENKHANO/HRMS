@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Employee.Master" AutoEventWireup="true" CodeBehind="Employeetesting.aspx.cs" Inherits="EmployeeAndAdmin.Employee.Employeetesting" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Employee/Employee.Master" AutoEventWireup="true" CodeBehind="Employeetesting.aspx.cs" Inherits="EmployeeAndAdmin.Employee.Employeetesting" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
      <!-- Favicon -->

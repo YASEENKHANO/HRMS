@@ -1878,7 +1878,8 @@ table.dataTable thead > tr > td.sorting {
 .account-wrapper {
 	padding: 30px;
 }
-.account-logo {
+.account-logo 
+{align-items:center;
 	margin-bottom: 30px;
 	text-align: center;
 }
