@@ -20,6 +20,8 @@ namespace EmployeeAndAdmin
 
         protected void btn_login_Click(object sender, EventArgs e)
         {
+
+            Response.Redirect("~/EmployeeHome.aspx");
             //string email = txtusername.Text;
             //string password = txtpassword.Text;
 
@@ -57,7 +59,7 @@ namespace EmployeeAndAdmin
             //}
 
 
-            Response.Redirect("~/UserHome.aspx");
+
         }
 
         //public string scalarReturn(string q)

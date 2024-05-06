@@ -150,11 +150,21 @@
     <Content Include="assets\plugins\sticky-kit-master\dist\sticky-kit.min.js" />
     <Content Include="assets\plugins\summernote\dist\summernote-bs4.css" />
     <Content Include="assets\plugins\summernote\dist\summernote-bs4.min.js" />
+    <Content Include="Employee-payroll-items.aspx" />
+    <Content Include="Employee-salary-view.aspx" />
+    <Content Include="EmployeeActivities.aspx" />
+    <Content Include="EmployeeAttendence.aspx" />
+    <Content Include="EmployeeTickets.aspx" />
+    <Content Include="EmployeeView-Performance.aspx" />
+    <Content Include="EmployeeViewTraining.aspx" />
+    <Content Include="EmployeeviewVacation.aspx" />
+    <Content Include="Employee\Employeetesting.aspx" />
+    <Content Include="knowledgebase.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="MainHome.aspx" />
     <Content Include="Register.aspx" />
-    <Content Include="UserHome.aspx" />
-    <Content Include="UserProfile.aspx" />
+    <Content Include="EmployeeHome.aspx" />
+    <Content Include="EmployeeProfile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +181,76 @@
     </Compile>
     <Compile Include="AdminHome.aspx.designer.cs">
       <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee-payroll-items.aspx.cs">
+      <DependentUpon>Employee-payroll-items.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employee-payroll-items.aspx.designer.cs">
+      <DependentUpon>Employee-payroll-items.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee-salary-view.aspx.cs">
+      <DependentUpon>Employee-salary-view.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employee-salary-view.aspx.designer.cs">
+      <DependentUpon>Employee-salary-view.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeActivities.aspx.cs">
+      <DependentUpon>EmployeeActivities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeActivities.aspx.designer.cs">
+      <DependentUpon>EmployeeActivities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeAttendence.aspx.cs">
+      <DependentUpon>EmployeeAttendence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeAttendence.aspx.designer.cs">
+      <DependentUpon>EmployeeAttendence.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeTickets.aspx.cs">
+      <DependentUpon>EmployeeTickets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeTickets.aspx.designer.cs">
+      <DependentUpon>EmployeeTickets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeView-Performance.aspx.cs">
+      <DependentUpon>EmployeeView-Performance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeView-Performance.aspx.designer.cs">
+      <DependentUpon>EmployeeView-Performance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeViewTraining.aspx.cs">
+      <DependentUpon>EmployeeViewTraining.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeViewTraining.aspx.designer.cs">
+      <DependentUpon>EmployeeViewTraining.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeviewVacation.aspx.cs">
+      <DependentUpon>EmployeeviewVacation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeviewVacation.aspx.designer.cs">
+      <DependentUpon>EmployeeviewVacation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\Employeetesting.aspx.cs">
+      <DependentUpon>Employeetesting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employee\Employeetesting.aspx.designer.cs">
+      <DependentUpon>Employeetesting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="knowledgebase.aspx.cs">
+      <DependentUpon>knowledgebase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="knowledgebase.aspx.designer.cs">
+      <DependentUpon>knowledgebase.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -194,26 +274,26 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="User.Master.cs">
-      <DependentUpon>User.Master</DependentUpon>
+    <Compile Include="Employee.Master.cs">
+      <DependentUpon>Employee.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User.Master.designer.cs">
-      <DependentUpon>User.Master</DependentUpon>
+    <Compile Include="Employee.Master.designer.cs">
+      <DependentUpon>Employee.Master</DependentUpon>
     </Compile>
-    <Compile Include="UserHome.aspx.cs">
-      <DependentUpon>UserHome.aspx</DependentUpon>
+    <Compile Include="EmployeeHome.aspx.cs">
+      <DependentUpon>EmployeeHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserHome.aspx.designer.cs">
-      <DependentUpon>UserHome.aspx</DependentUpon>
+    <Compile Include="EmployeeHome.aspx.designer.cs">
+      <DependentUpon>EmployeeHome.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UserProfile.aspx.cs">
-      <DependentUpon>UserProfile.aspx</DependentUpon>
+    <Compile Include="EmployeeProfile.aspx.cs">
+      <DependentUpon>EmployeeProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserProfile.aspx.designer.cs">
-      <DependentUpon>UserProfile.aspx</DependentUpon>
+    <Compile Include="EmployeeProfile.aspx.designer.cs">
+      <DependentUpon>EmployeeProfile.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -253,7 +333,7 @@
     <Content Include="assets\plugins\summernote\dist\font\summernote.woff" />
     <Content Include="Admin.Master" />
     <None Include="packages.config" />
-    <Content Include="User.Master" />
+    <Content Include="Employee.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

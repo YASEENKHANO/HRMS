@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="EmployeeAndAdmin.User" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Employee.Master.cs" Inherits="EmployeeAndAdmin.User" %>
 
 <!DOCTYPE html>
 
@@ -6,23 +6,23 @@
 <head runat="server">
     <title></title>
     <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="~/assets/img/favicon.png" />
 		
 		<!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
 		
 		<!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="./assets/css/font-awesome.min.css" />
 		
 		<!-- Lineawesome CSS -->
-        <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+        <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
 		
 		<!-- Chart CSS -->
-		<link rel="stylesheet" href="assets/plugins/morris/morris.css" />
+		<link rel="stylesheet" href="./assets/plugins/morris/morris.css" />
 		
 
 		<!-- Main CSS -->      
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
    
 
 
@@ -43,7 +43,7 @@
 				<!-- Logo -->
                 <div class="header-left">
                     <a href="UserProfile.aspx" class="logo">
-						<img src="assets/img/logo.png" width="40" height="40" alt="">
+						<img src="../assets/img/logo.png" width="40" height="40" alt="">
 					</a>
                 </div>
 				<!-- /Logo -->
@@ -328,10 +328,11 @@
 								<span>Main</span>
 							</li>
                             <!--Dashboard linkclass="submenu"--->
-							<li >
-                                <a href="UserHome.aspx" class="active"><i class="la la-dashboard"></i><span>Dashboard</span> </a>
-								
+
+                            <li> 
+								<a href="../EmployeeHome.aspx"><i class="la la-dashboard"></i> <span>Dashboard</span></a>
 							</li>
+						
 							<li class="submenu">
 								<a href="#"><i class="la la-cube"></i> <span> Apps</span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
@@ -341,48 +342,46 @@
 								</ul>
 							</li>
 							
-						
+						<!--EmployeeTickets.aspx--->
 							
 							<li> 
-								<a href="tickets.html"><i class="la la-ticket"></i> <span>Tickets</span></a>
+								<a href="../EmployeeTickets.aspx"><i class="la la-ticket"></i> <span>Tickets</span></a>
 							</li>
 
 							<li> 
-								<a href="tickets.html"><i class="la la-ticket"></i> <span>Attendence</span></a>
+								<a href="EmployeeAttendence.aspx"><i class="la la-ticket"></i> <span>Attendence</span></a>
 							</li>
 							
 							<li class="submenu">
 								<a href="#"><i class="la la-money"></i> <span> Payroll </span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
-									<li><a href="salary-view.html"> Payslip </a></li>
-									<li><a href="payroll-items.html"> Payroll Items </a></li>
+									<li><a href="Employee-salary-view.aspx"> Payslip </a></li>
+									<li><a href="Employee-payroll-items.aspx"> Payroll Items </a></li>
 								</ul>
 							</li>
 						
-							<li class="submenu">
-								<a href="#"><i class="la la-graduation-cap"></i> <span> Performance </span> </a>
-								
-							</li>
-							
-							<li class="submenu">
-								<a href="training.html"><i class="la la-edit"></i> <span> Training </span></a>
-								
-							</li>
-							
-							
+
                             <li> 
-								<a href="Uservacation.aspx"><i class="la la-question"></i> <span>Vacation</span></a>
+								<a href="EmployeeView-Performance.aspx"><i class="la la-question"></i> <span>Performance </span></a>
+							</li>
+
+				        	 <li> 
+								<a href="EmployeeViewTraining.aspx"><i class="la la-question"></i> <span>Training</span></a>
+							</li>
+														
+                            <li> 
+								<a href="EmployeeViewVacation.aspx"><i class="la la-question"></i> <span>Vacation</span></a>
 							</li>
 
 							<li> 
 								<a href="knowledgebase.aspx"><i class="la la-question"></i> <span>Knowledgebase</span></a>
 							</li>
 							<li> 
-								<a href="activities.aspx"><i class="la la-bell"></i> <span>Activities</span></a>
+								<a href="EmployeeActivities.aspx"><i class="la la-bell"></i> <span>Activities</span></a>
 							</li>						
 							
 							<li>
-                                <a href="UserProfile.aspx"><i class="la la-user"></i><span>Profile </span></a>		
+                                <a href="EmployeeProfile.aspx"><i class="la la-user"></i><span>Profile </span></a>		
 							</li>
 						
 								<li> 
@@ -406,32 +405,36 @@
     
 
     	<!-- jQuery -->
-        <script src="assets/js/jquery-3.5.1.min.js"></script>
+        <script src="~/assets/js/jquery-3.5.1.min.js"></script>
 		
 		<!-- Bootstrap Core JS -->
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="~/assets/js/popper.min.js"></script>
+        <script src="~/assets/js/bootstrap.min.js"></script>
 		
 		<!-- Slimscroll JS -->
-		<script src="assets/js/jquery.slimscroll.min.js"></script>
+		<script src="~/assets/js/jquery.slimscroll.min.js"></script>
 		
 		<!-- Chart JS -->
-		<script src="assets/plugins/morris/morris.min.js"></script>
-		<script src="assets/plugins/raphael/raphael.min.js"></script>
-		<script src="assets/js/chart.js"></script>
+		<script src="~/assets/plugins/morris/morris.min.js"></script>
+		<script src="~/assets/plugins/raphael/raphael.min.js"></script>
+		<script src="~/assets/js/chart.js"></script>
 				
 		<!-- Select2 JS -->
-		<script src="assets/js/select2.min.js"></script>
+		<script src="~/assets/js/select2.min.js"></script>
 		
 		<!-- Datetimepicker JS -->
-		<script src="assets/js/moment.min.js"></script>
-		<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+		<script src="~/assets/js/moment.min.js"></script>
+		<script src="~/assets/js/bootstrap-datetimepicker.min.js"></script>
 		
 		<!-- Tagsinput JS -->
-		<script src="assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
-
-		<!-- Custom JS -->
-		<script src="assets/js/app.js"></script>
+		<script src="~/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+    
+        <!-- Datatable JS -->
+		<script src="~/assets/js/jquery.dataTables.min.js"></script>
+		<script src="~/assets/js/dataTables.bootstrap4.min.js"></script>
+		
+        <!-- Custom JS -->
+		<script src="~/assets/js/app.js"></script>
      
 		
 

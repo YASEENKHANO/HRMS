@@ -178,14 +178,14 @@ p{
 					<!-- Flag -->
 					<li class="nav-item dropdown has-arrow flag-nav">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">
-							<img src="assets/img/flags/us.png" alt="" height="20"> <span>English</span>
+							<img src="assets/img/flags/us.png" alt="" height="20" /> <span>English</span>
 						</a>
 						<div class="dropdown-menu dropdown-menu-right">
 							<a href="javascript:void(0);" class="dropdown-item">
-								<img src="assets/img/flags/us.png" alt="" height="16"> English
+								<img src="assets/img/flags/us.png" alt="" height="16" /> English
 							</a>
 							<a href="javascript:void(0);" class="dropdown-item">
-								<img src="assets/img/flags/fr.png" alt="" height="16"> URDU
+								<img src="assets/img/flags/fr.png" alt="" height="16" /> URDU
 							</a>
 							
 						</div>
@@ -262,7 +262,7 @@ p{
         </div>
 
         <div class="second-container"> 
-            <img class="image" src="startup.svg" alt="hero">
+            <img class="image" src="startup.svg" alt="hero" />
         </div>
     </div>
 
