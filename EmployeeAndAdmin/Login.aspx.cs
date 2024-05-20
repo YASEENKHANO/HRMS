@@ -12,7 +12,7 @@ namespace EmployeeAndAdmin
 {
     public partial class Login : System.Web.UI.Page
     {
-        private string connectionstring = ConfigurationManager.ConnectionStrings["db"].ConnectionString;
+        ////private string connectionstring = ConfigurationManager.ConnectionStrings["db"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -21,7 +21,7 @@ namespace EmployeeAndAdmin
         protected void btn_login_Click(object sender, EventArgs e)
         {
 
-            Response.Redirect("~/EmployeeHome.aspx");
+            Response.Redirect("../EmployeeView/EmployeeHome.aspx");
             //string email = txtusername.Text;
             //string password = txtpassword.Text;
 

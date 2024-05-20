@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminView/Admins.Master" AutoEventWireup="true" CodeBehind="AdminHome.aspx.cs" Inherits="EmployeeAndAdmin.AdminHome" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     

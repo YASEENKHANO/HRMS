@@ -152,7 +152,7 @@ p{
 				
 				<!-- Header Title -->
                 <div class="page-title-box">
-					<h3>Dreamguy's Technologies</h3>
+					<h3>HumanAsAsset</h3>
                 </div>
 				<!-- /Header Title -->
 				

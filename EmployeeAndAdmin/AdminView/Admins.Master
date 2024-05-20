@@ -61,7 +61,8 @@
 				
 				<!-- Header Title -->
                 <div class="page-title-box">
-					<h3>Dreamguy's Technologies</h3>
+                    <a href="../AdminView/AdminHome.aspx"><h3>HumanAsAsset</h3></a>
+					
                 </div>
 				<!-- /Header Title -->
 				
@@ -331,7 +332,7 @@
 								<span>Main</span>
 							</li>
 							<li class="submenu">
-								<a href="AdminHome.aspx"><i class="la la-dashboard"></i> <span> Dashboard</span> </a>
+								<a href="../AdminView/AdminHome.aspx"><i class="la la-dashboard"></i> <span> Dashboard</span> </a>
 								=
 							</li>
 							<li class="submenu">
@@ -339,7 +340,6 @@
 								<ul style="display: none;">
 									<li><a href="chat.html">Chat</a></li>									
 									<li><a href="events.html">Calendar</a></li>
-									<li><a href="contacts.html">Contacts</a></li>
 									<li><a href="inbox.html">Email</a></li>
 									<li><a href="file-manager.html">File Manager</a></li>
 								</ul>
@@ -350,11 +350,10 @@
 							<li class="submenu">
 								<a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
-									<li><a href="employees.html">All Employees</a></li>
+									<li><a href="../AdminView/AdminViewEmployees.aspx">All Employees</a></li>
 									<li><a href="holidays.html">Holidays</a></li>
 									<li><a href="leaves.html">Leaves (Admin) <span class="badge badge-pill bg-primary float-right">1</span></a></li>
 									<li><a href="leaves-employee.html">Leaves (Employee)</a></li>
-									<li><a href="leave-settings.html">Leave Settings</a></li>
 									<li><a href="attendance.html">Attendance (Admin)</a></li>
 									<li><a href="attendance-employee.html">Attendance (Employee)</a></li>
 									<li><a href="departments.html">Departments</a></li>
@@ -363,10 +362,10 @@
 								</ul>
 							</li>
 							<li> 
-								<a href="clients.html"><i class="la la-users"></i> <span>Clients</span></a>
+								<a href="../AdminView/Clients.aspx"><i class="la la-users"></i> <span>Clients</span></a>
 							</li>
 							<li class="submenu">
-								<a href="#"><i class="la la-rocket"></i> <span> Projects</span> <span class="menu-arrow"></span></a>
+								<a href="../AdminView/Projects.aspx"><i class="la la-rocket"></i> <span> Projects</span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
 									<li><a href="projects.html">Projects</a></li>
 									<li><a href="tasks.html">Tasks</a></li>
@@ -374,24 +373,15 @@
 								</ul>
 							</li>
 							<li> 
-								<a href="tickets.html"><i class="la la-ticket"></i> <span>Tickets</span></a>
+								<a href="../AdminView/Tickets.aspx"><i class="la la-ticket"></i> <span>Tickets</span></a>
 							</li>
 							<li class="menu-title"> 
 								<span>HR</span>
 							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-files-o"></i> <span> Sales </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="estimates.html">Estimates</a></li>
-									<li><a href="payments.html">Payments</a></li>
-									<li><a href="expenses.html">Expenses</a></li>
-									<li><a href="provident-fund.html">Provident Fund</a></li>
-									<li><a href="taxes.html">Taxes</a></li>
-								</ul>
-							</li>
+							
 							
 							<li class="submenu">
-								<a href="#"><i class="la la-money"></i> <span> Payroll </span> <span class="menu-arrow"></span></a>
+								<a href="../AdminView/PayrollToAppr.aspx"><i class="la la-money"></i> <span> Payroll </span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
 									<li><a href="salary.html"> Employee Salary </a></li>
 									<li><a href="salary-view.html"> Payslip </a></li>
@@ -399,10 +389,10 @@
 								</ul>
 							</li>
 							<li> 
-								<a href="policies.html"><i class="la la-file-pdf-o"></i> <span>Policies</span></a>
+								<a href="../AdminView/PolicyToAppr.aspx"><i class="la la-file-pdf-o"></i> <span>Policies</span></a>
 							</li>
 							<li class="submenu">
-								<a href="#"><i class="la la-pie-chart"></i> <span> Reports </span> <span class="menu-arrow"></span></a>
+								<a href="../AdminView/Reports.aspx"><i class="la la-pie-chart"></i> <span> Reports </span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
 									<li><a href="expense-reports.html"> Expense Report </a></li>
 									<li><a href="invoice-reports.html"> Invoice Report </a></li>
@@ -421,7 +411,7 @@
 								<span>Performance</span>
 							</li>
 							<li class="submenu">
-								<a href="#"><i class="la la-graduation-cap"></i> <span> Performance </span> <span class="menu-arrow"></span></a>
+								<a href="../AdminView/PerformanceRec.aspx"><i class="la la-graduation-cap"></i> <span> Performance </span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
 									<li><a href="performance-indicator.html"> Performance Indicator </a></li>
 									<li><a href="performance.html"> Performance Review </a></li>
@@ -429,30 +419,30 @@
 								</ul>
 							</li>
 							<li class="submenu">
-								<a href="#"><i class="la la-crosshairs"></i> <span> Goals </span> <span class="menu-arrow"></span></a>
+								<a href="../AdminView/GoalsToAppr.aspx"><i class="la la-crosshairs"></i> <span> Goals </span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
 									<li><a href="goal-tracking.html"> Goal List </a></li>
 									<li><a href="goal-type.html"> Goal Type </a></li>
 								</ul>
 							</li>
 							<li class="submenu">
-								<a href="#"><i class="la la-edit"></i> <span> Training </span> <span class="menu-arrow"></span></a>
+								<a href="../AdminView/TrainingsToAppr.aspx"><i class="la la-edit"></i> <span> Training </span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
 									<li><a href="training.html"> Training List </a></li>
 									<li><a href="trainers.html"> Trainers</a></li>
 									<li><a href="training-type.html"> Training Type </a></li>
 								</ul>
 							</li>
-							<li><a href="resignation.html"><i class="la la-external-link-square"></i> <span>Resignation</span></a></li>
-							<li><a href="termination.html"><i class="la la-times-circle"></i> <span>Termination</span></a></li>
+							<li><a href="../AdminView/Resignation.aspx"><i class="la la-external-link-square"></i> <span>Resignation</span></a></li>
+							<li><a href="../AdminView/Termination.aspx"><i class="la la-times-circle"></i> <span>Termination</span></a></li>
 							<li class="menu-title"> 
 								<span>Administration</span>
 							</li>
 							<li> 
-								<a href="assets.html"><i class="la la-object-ungroup"></i> <span>Assets</span></a>
+								<a href="../AdminView/ManageAssets.aspx"><i class="la la-object-ungroup"></i> <span>Assets</span></a>
 							</li>
 							<li class="submenu">
-								<a href="#"><i class="la la-briefcase"></i> <span> Jobs </span> <span class="menu-arrow"></span></a>
+								<a href="../AdminView/AdminViewJobs.aspx"><i class="la la-briefcase"></i> <span> Jobs </span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
 									<li><a href="user-dashboard.html"> User Dasboard </a></li>
 									<li><a href="jobs-dashboard.html"> Jobs Dasboard </a></li>
@@ -468,52 +458,22 @@
 								</ul>
 							</li>	
                             <li> 
-								<a href="AdminVacation.aspx"><i class="la la-cog"></i> <span>Vacation</span></a>
+								<a href="../AdminView/AdminViewVacation.aspx"><i class="la la-cog"></i> <span>Vacation</span></a>
 							</li>
 							<li> 
-								<a href="knowledgebase.html"><i class="la la-question"></i> <span>Knowledgebase</span></a>
+								<a href="../AdminView/AdminViewKnowlege.aspx"><i class="la la-question"></i> <span>Knowledgebase</span></a>
 							</li>
 							<li> 
-								<a href="activities.html"><i class="la la-bell"></i> <span>Activities</span></a>
-							</li>
-							<li> 
-								<a href="users.html"><i class="la la-user-plus"></i> <span>Users</span></a>
-							</li>
-							<li> 
-								<a href="settings.html"><i class="la la-cog"></i> <span>Settings</span></a>
-							</li>
-							<li class="menu-title"> 
-								<span>Pages</span>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-user"></i> <span> Profile </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="profile.html"> Employee Profile </a></li>
-									<li><a href="client-profile.html"> Client Profile </a></li>
-								</ul>
+								<a href="../AdminView/AdminActivities.aspx"><i class="la la-bell"></i> <span>Activities</span></a>
 							</li>
 							
-							<li class="submenu">
-								<a href="#"><i class="la la-exclamation-triangle"></i> <span> Error Pages </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="error-404.html">404 Error </a></li>
-									<li><a href="error-500.html">500 Error </a></li>
-								</ul>
+							<li> 
+								<a href="../AdminView/SettToAdmin.aspx"><i class="la la-cog"></i> <span>Settings</span></a>
 							</li>
-							<li class="submenu">
-								<a href="subscribed-companies.aspx"><i class="la la-hand-o-up"></i> <span> Subscriptions </span> </a>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-columns"></i> <span> Pages </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="search.html"> Search </a></li>
-									<li><a href="faq.html"> FAQ </a></li>
-									<li><a href="terms.html"> Terms </a></li>
-									<li><a href="privacy-policy.html"> Privacy Policy </a></li>
-								</ul>
-							</li>
+
+						
 								<li> 
-								<a href="MainHome.aspx"><i class="la la-cog"></i> <span>Logout</span></a>
+								<a href="../Login.aspx"><i class="la la-cog"></i> <span>Logout</span></a>
 							</li>
 						</ul>
 					</div>

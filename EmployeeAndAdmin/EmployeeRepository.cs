@@ -15,7 +15,7 @@ namespace EmployeeAndAdmin
 
 
 
-        //---------------------------------------//
+        //---------------Braker-----------------//
 
         // START of employee properties to split into two
 
@@ -61,7 +61,7 @@ namespace EmployeeAndAdmin
         //END of employee properties to split into two
 
 
-        //--------------------------------------//
+        //------------------Braker-------------------//
 
         // //START of employee datafetching and insertion and deletion
 
@@ -85,14 +85,14 @@ namespace EmployeeAndAdmin
         //    Department departmentToUpdate = employeeDBContext.Departments.FirstOrDefault(x => x.Dep_Id == department.Dep_Id);
         //   departmentToUpdate.Dep_Name =  department.Dep_Name;
         //    departmentToUpdate.Dep_Desc = department.Dep_Desc;
-           
+
         //    employeeDBContext.SaveChanges();
         //}
 
         ////To Delete employee data
         //public void DeleteDepartment(Department department)
         //{
-            
+
         //    Department DeleteDepartment = employeeDBContext.Departments.FirstOrDefault(x => x.Dep_Id == department.Dep_Id);
         //    employeeDBContext.Departments.Remove(DeleteDepartment);
         //    employeeDBContext.SaveChanges();
@@ -100,7 +100,7 @@ namespace EmployeeAndAdmin
 
         //END of employee datafetching and insertion and deletion
 
-        //---------------------------------------------//
+        //----------------------Braker-----------------------//
 
         // //START of employee datafetching and insertion and deletion
 
@@ -141,28 +141,29 @@ namespace EmployeeAndAdmin
         //}
 
         //END of employee datafetching and insertion and deletion
-        //-----------------------------------------------//
 
+        //----------------------Braker-------------------------//
 
 
         //To get Department data as list not as stored procedure
-        //public List<Department> OnlyGetDepartments()
-        //{
-        //    // Making an object which have the dbcontext which  will help us access the database base if once declared above then we can not use it again 
-        //   // EmployeeDBContext employeeDBContext = new EmployeeDBContext();
+
+        public List<Department> OnlyGetDepartments()
+        {
+            // Making an object which have the dbcontext which  will help us access the database base if once declared above then we can not use it again 
+            // EmployeeDBContext employeeDBContext = new EmployeeDBContext();
 
 
-        //    using (EmployeeDBContext employeeDBContext = new EmployeeDBContext())
-        //    {
+            using (EmployeeDBContext employeeDBContext = new EmployeeDBContext())
+            {
 
 
-        //        return employeeDBContext.Departments.Include("Employees").ToList();
+                return employeeDBContext.Departments.Include("Employees").ToList();
 
 
-        //       //   return employeeDBContext.Departments.Include("Employees").ToList();  
-        //    }
+                //   return employeeDBContext.Departments.Include("Employees").ToList();  
+            }
 
-        //}
+        }
 
     }
 }

@@ -53,7 +53,7 @@
                         <SortedDescendingHeaderStyle BackColor="#4870BE" />
                     </asp:GridView>
 
-                    <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="217px" AutoGenerateRows="False" CellPadding="4" DataSourceID="ObjectDataSource1" ForeColor="#333333" GridLines="None" DefaultMode="Insert">
+                    <asp:DetailsView ID="DetailsView1" runat="server" CssClass="btn-danger" Height="50px" Width="217px" AutoGenerateRows="False" CellPadding="4" DataSourceID="ObjectDataSource1" ForeColor="#333333" GridLines="None" DefaultMode="Insert">
                         <AlternatingRowStyle BackColor="White" />
                         <CommandRowStyle BackColor="#D1DDF1" Font-Bold="True" />
                         <EditRowStyle BackColor="#2461BF" />

@@ -59,7 +59,7 @@
         <div class="row justify-content-center mt-4">
             <div class="col-lg-4 col-md-6">
                 <div class="account-logo">
-                    <a href="index.html"><img src="assets/img/logo2.png" alt="Dreamguy's Technologies" /></a>
+                    <a href="index.html"><img src="assets/img/logo2.png" alt="HumanAsAsset" /></a>
                 </div>
                 <!-- /Account Logo -->
 
@@ -127,7 +127,7 @@
            
              <div class="col">
                  <div class="account-logo">
-						<a href="index.html"><img src="assets/img/logo2.png" alt="Dreamguy's Technologies" /></a>
+						<a href="index.html"><img src="assets/img/logo2.png" alt="HumanAsAsset" /></a>
 					</div>
 					<!-- /Account Logo -->
 					

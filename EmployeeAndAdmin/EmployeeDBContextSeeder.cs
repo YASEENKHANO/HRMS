@@ -6,6 +6,13 @@ using System.Web;
 
 namespace EmployeeAndAdmin
 {
+    //----------------Intro to class Starts---------------
+    //This class is used for seeding(giving ) data to tables with table in names by hard code i mean not by ui.
+    //here seeder is inherited by "dropcreatedatabaseifmodelchanges" from "DBContext" class
+    //----------------Intro to class Ends-----------------
+
+
+
     //public class EmployeeDBContextSeeder : DropCreateDatabaseIfModelChanges<EmployeeDBContext>
     //{
     //    protected override void Seed(EmployeeDBContext context)

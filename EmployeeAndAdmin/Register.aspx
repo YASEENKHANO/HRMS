@@ -30,7 +30,7 @@
 				
 					<!-- Account Logo -->
 					<div class="account-logo">
-						<a href="index.html"><img src="assets/img/logo2.png" alt="Dreamguy's Technologies"></a>
+						<a href="index.html"><img src="assets/img/logo2.png" alt="HumanAsAsset"></a>
 					</div>
 					<!-- /Account Logo -->
 					
