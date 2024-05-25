@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminView/Admins.Master" AutoEventWireup="true" CodeBehind="AdminHome.aspx.cs" Inherits="EmployeeAndAdmin.AdminHome" %>
 
+<%@ Register Assembly="System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI.DataVisualization.Charting" TagPrefix="asp" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     
@@ -105,11 +107,10 @@
 										<div class="card-body">
 											<h3 class="card-title">Total Revenue</h3>										
                                             <div>
-                                                <asp:Chart ID="ChartTotalRevenue" runat="server">
-                                            <Titles><asp:Title Text="Total Revenue"></asp:Title></Titles>
+                                                <asp:Chart ID="Chart1" runat="server">
                                                     <Series>
                                                         <asp:Series Name="Series1">
-                                                            <Points>
+                                                             <Points>
                                                                 <asp:DataPoint AxisLabel="Jan" YValues="30" Color="Red"/>
                                                                 <asp:DataPoint AxisLabel="Feb" YValues="40"/>
                                                                 <asp:DataPoint AxisLabel="Mar" YValues="20" Color="Red"/>
@@ -127,12 +128,11 @@
                                                         </asp:Series>
                                                     </Series>
                                                     <ChartAreas>
-                                                        <asp:ChartArea Name="ChartArea1">
-                                                            <AxisX Title=""></AxisX>
-                                                            <AxisY Title=""></AxisY>
-                                                        </asp:ChartArea>
+                                                        <asp:ChartArea Name="ChartArea1"></asp:ChartArea>
                                                     </ChartAreas>
-                                                </asp:Chart>
+                                                </asp:Chart>          
+
+                                              
 
                                             </div>
 										</div>
